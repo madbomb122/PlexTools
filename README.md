@@ -18,10 +18,13 @@ To Download go to -> [Plex Tools -Release](https://github.com/madbomb122/PlexToo
  - [FAQ](#faq)
 
 ## Description
-Various powershell scripts for plex servers. Atm it's 1 script on here but I have other scripts in mind that I may do.   
+Various powershell scripts for plex servers.   
+
 `plex-metaclean.ps1` -Removes metadata folders that meet the following conditiins
 1. Folder does not have the following file `\Contents\_combined\Info.xml`
 2. There is no tile in the file above
+
+`Plex-titles.ps1` -Gets you a list of items in your library and shows what tv/movie corresponds to what metadata folder
 
 ## Usage Meta Clean
 1. Edit the `plex-metaclean.ps1` and change the following to meet your conditions  
