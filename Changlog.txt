@@ -1,0 +1,10 @@
+----1.0.0 to 1.0.1----
+Feb-4-20
+plex-titles and plex-metaclean
+both scripts now read plex path from the file 'PlexFolder.txt'
+
+plex-titles
+the script now requires a key press to close
+
+plex-metaclean
+added ability to do both movie and tv in 1 run
