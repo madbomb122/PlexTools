@@ -6,8 +6,8 @@
 To Download go to -> [Plex Tools -Release](https://github.com/madbomb122/PlexTools/releases)  
 
 **Current Version**   
-**Meta Clean:** `1.0.0` (Febuary 02, 2020)   
-**Title List:** `1.0.0` (Febuary 02, 2020)   
+**Meta Clean:** `1.0.1` (Febuary 04, 2020)   
+**Title List:** `1.0.1` (Febuary 04, 2020)   
 
 ## Contents
  - [Description](#description)
@@ -28,7 +28,6 @@ Various powershell scripts for plex servers.
 
 ## Usage Meta Clean
 1. Edit the `plex-metaclean.ps1` and change the following to meet your conditions  
-`$PlexFolder`-this is the path to your plex metadata folder  
 `$TV_or_Movie` -this is if you want your tv or movie folder to be cleaned  
 `$Dryrun` -this is if you want to see what will happen if you run the script  
 
@@ -39,10 +38,7 @@ Various powershell scripts for plex servers.
 3. Enjoy a cleaner metadata folder  
 
 ## Usage Titles
-1. Edit the `Plex-titles.ps1` and change the following  
-`$PlexFolder`-this is the path to your plex metadata folder  
-
-2. Run the script  
+1. Run the script  
 `powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/plex-titles.ps1`  
 *For the above, Please note you need change the c:/ to the fullpath of your file*  
 
