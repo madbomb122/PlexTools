@@ -60,4 +60,7 @@ I may make improvements to the script to make it easier to use.
 **A:** You can also PM me on reddit or email me  
          1. reddit /u/madbomb122 [https://www.reddit.com/user/madbomb122](https://www.reddit.com/user/madbomb122)  
          2. You can email me @ madbomb122@gmail.com.  
-**Note** Before contacting me, please make sure you have ALL the needed files
+**Note** Before contacting me, please make sure you have ALL the needed files.
+
+**Q:** Can I run the script safely?   
+**A:** Yes/No, Ples-titles is 100% safe, Plex-metaclean can cause a show/movie to not be listed if it accidently deletes a wrong folder (which is why i recommend a dryrun/whatif first).
