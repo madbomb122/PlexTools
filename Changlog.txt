@@ -1,10 +1,15 @@
+----1.0.1 to 1.0.2----
+plex-metaclean v1.1.0
+script has gui so, no more editing to select what you want cleaned
+added switches/arguments so you can run script w/o using gui or for automation
+
 ----1.0.0 to 1.0.1----
 Feb-4-20
 plex-titles and plex-metaclean
 both scripts now read plex path from the file 'PlexFolder.txt'
 
-plex-titles
+plex-titles v1.0.1
 the script now requires a key press to close
 
-plex-metaclean
+plex-metaclean v1.0.1
 added ability to do both movie and tv in 1 run
