@@ -63,4 +63,4 @@ I may make improvements to the script to make it easier to use.
 **Note** Before contacting me, please make sure you have ALL the needed files.
 
 **Q:** Can I run the script safely?   
-**A:** Yes/No, Ples-titles is 100% safe, Plex-metaclean can cause a show/movie to not be listed if it accidently deletes a wrong folder (which is why i recommend a dryrun/whatif first).
+**A:** Yes/No, Ples-titles is 100% safe, Plex-metaclean can cause a show/movie to not be listed if it accidently deletes a wrong folder (which is why i recommend a dryrun/whatif first to make sure it runs fine).
