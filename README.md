@@ -37,14 +37,15 @@ or use a switch/argument for automation
 | -movie         | Cleans the movie metadata folder                                                         |
 | -tv            | Cleans the tv metadata folder                                                            |
 | -dry           | Runs and shows what will be deleted w/o the -dry switch (need to do a switch above too)  |
-example: 
-`powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/plex-metaclean.ps1`  
+
+Example: 
+`powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/plex-metaclean.ps1 -argument -dry -tv -movie`  
 
 2. Enjoy a cleaner metadata folder  
 
 ## Usage Titles
 1. Run the script  
-`powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/plex-titles.ps1 -argument -dry -tv -movie`  
+`powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/plex-titles.ps1`  
 *For the above, Please note you need change the c:/ to the fullpath of your file*  
 
 ## Notes
