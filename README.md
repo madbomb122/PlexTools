@@ -6,12 +6,11 @@
 To Download go to -> [Plex Tools -Release](https://github.com/madbomb122/PlexTools/releases)  
 
 **Current Version**   
-**Meta Clean:** `1.0.1` (Febuary 04, 2020)   
+**Meta Clean:** `1.1.0` (Febuary 07, 2020)   
 **Title List:** `1.0.1` (Febuary 04, 2020)   
 
 ## Contents
  - [Description](#description)
- - [Usage](#usage)
  - [Usage Meta Clean](#usage-meta-clean)
  - [Usage Titles](#usage-titles)
  - [Notes](#notes)
@@ -27,15 +26,11 @@ Various powershell scripts for plex servers.
 `Plex-titles.ps1` -Gets you a list of items in your library and shows what tv/movie corresponds to what metadata folder
 
 ## Usage Meta Clean
-1. Edit the `plex-metaclean.ps1` and change the following to meet your conditions  
-`$TV_or_Movie` -this is if you want your tv or movie folder to be cleaned  
-`$Dryrun` -this is if you want to see what will happen if you run the script  
-
-2. Run the script  
+1. Run the script  
 `powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/plex-metaclean.ps1`  
 *For the above, Please note you need change the c:/ to the fullpath of your file*  
 
-3. Enjoy a cleaner metadata folder  
+2. Enjoy a cleaner metadata folder  
 
 ## Usage Titles
 1. Run the script  
@@ -60,3 +55,9 @@ I may make improvements to the script to make it easier to use.
 
 **Q:** I cant access the plex folder to run thus script?   
 **A:** You may have to give yourself permission on the plex folder.   
+
+**Q:** How can I contact you?  
+**A:** You can also PM me on reddit or email me  
+         1. reddit /u/madbomb122 [https://www.reddit.com/user/madbomb122](https://www.reddit.com/user/madbomb122)  
+         2. You can email me @ madbomb122@gmail.com.  
+**Note** Before contacting me, please make sure you have ALL the needed files
