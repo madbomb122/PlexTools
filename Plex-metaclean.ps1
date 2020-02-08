@@ -5,8 +5,8 @@
 #  Author: Madbomb122
 # Website: https://GitHub.com/Madbomb122/PlexTools/
 #
-$Script_Version = '1.1.0'
-$Script_Date = 'Feb-07-2020'
+$Script_Version = '1.1.1'
+$Script_Date = 'Feb-08-2020'
 ##########
 
 $FileBase = $(If($psISE -ne $Null){ Split-Path $psISE.CurrentFile.FullPath -Parent } Else{ $PSScriptRoot })
@@ -114,11 +114,16 @@ Function GuiStart {
 
 	$WPF_RunButton.Add_Click{
 		$Form.close()
-		$TestRun = $WPF_Movie_CB.IsChecked
+		$TestRun = $WPF_Dryrun_CB.IsChecked
 		If($WPF_Movie_CB.IsChecked){ PlexMetaClean 'movie' 'Movies' }
 		If($WPF_TV_CB.IsChecked){ PlexMetaClean 'tv_show' 'TV Shows' }
-		Write-Host "Total Removed: $Count"
-		Write-Host "  Total Saved: $Saved"
+		If(!$TestRun){
+			Write-Host "Total Removed: $Count"
+			Write-Host "  Total Saved: $Saved"
+		} Else {
+			Write-Host "Would be Removed: $Count"
+			Write-Host "  Would be Saved: $Saved"
+		}
 		Read-Host "Done, Press any key to exit"
 	}
 
@@ -129,8 +134,13 @@ If($args[0]){
 	If($args -Contains '-Dry'){ $TestRun = $True }
 	If($args -Contains '-Movie'){ PlexMetaClean 'movie' 'Movies' }
 	If($args -Contains '-Tv'){ PlexMetaClean 'tv_show' 'TV Shows' }
-	Write-Host "Total Removed: $Count"
-	Write-Host "  Total Saved: $Saved"
+	If(!$TestRun){
+		Write-Host "Total Removed: $Count"
+		Write-Host "  Total Saved: $Saved"
+	} Else {
+		Write-Host "Would be Removed: $Count"
+		Write-Host "  Would be Saved: $Saved"		
+	}
 } Else {
 	GuiStart
 }
