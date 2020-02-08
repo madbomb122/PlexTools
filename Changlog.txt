@@ -1,3 +1,8 @@
+----1.0.2 to 1.0.3----
+plex-metaclean v1.1.1
+Fixed bug were selecting movie checkbox would do a dryrun
+Fixed bug were selectung dryrun would  ot do a dryrun
+
 ----1.0.1 to 1.0.2----
 plex-metaclean v1.1.0
 script has gui so, no more editing to select what you want cleaned
