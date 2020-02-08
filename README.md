@@ -6,7 +6,7 @@
 To Download go to -> [Plex Tools -Release](https://github.com/madbomb122/PlexTools/releases)  
 
 **Current Version**   
-**Meta Clean:** `1.1.0` (Febuary 07, 2020)   
+**Meta Clean:** `1.1.1` (Febuary 08, 2020)   
 **Title List:** `1.0.1` (Febuary 04, 2020)   
 
 ## Contents
