@@ -19,7 +19,7 @@ To Download go to -> [Plex Tools -Release](https://github.com/madbomb122/PlexToo
 ## Description
 Various powershell scripts for plex servers.   
 
-`plex-metaclean.ps1` -Removes metadata folders that meet the following conditiins
+`plex-metaclean.ps1` -Removes metadata folders (TV Shows and/or Movies) that meet the following conditions
 1. Folder does not have the following file `\Contents\_combined\Info.xml`
 2. There is no tile in the file above
 
@@ -61,12 +61,6 @@ I may make improvements to the script to make it easier to use.
 **A:** If you would like to donate to me Please pick an item/giftcard from my amazon wishlist or Contact me about donating, Thanks. BTW The giftcard amount can be changed to a min of $1.   
 **Wishlist:** [https://www.amazon.com/gp/registry/wishlist/YBAYWBJES5DE/](https://www.amazon.com/gp/registry/wishlist/YBAYWBJES5DE/)  
 
-**Q:** I have a suggestion/Issue for the script, how do I suggest it?   
-**A:** Do a pull request with the change or submit it as an issue with the suggestion.   
-
-**Q:** I cant access the plex folder to run thus script?   
-**A:** You may have to give yourself permission on the plex folder.   
-
 **Q:** How can I contact you?  
 **A:** You can also PM me on reddit or email me  
          1. reddit /u/madbomb122 [https://www.reddit.com/user/madbomb122](https://www.reddit.com/user/madbomb122)  
@@ -74,4 +68,11 @@ I may make improvements to the script to make it easier to use.
 **Note** Before contacting me, please make sure you have ALL the needed files.
 
 **Q:** Can I run the script safely?   
-**A:** Yes/No, Ples-titles is 100% safe, Plex-metaclean can cause a show/movie to not be listed if it accidently deletes a wrong folder (which is why i recommend a dryrun/whatif first to make sure it runs fine).
+**A:** `Ples-titles` - is 100% safe.  
+       `Plex-metaclean` - unlikly to cause issues but, can cause a show/movie to not be listed if it accidently deletes a wrong folder.  
+
+**Q:** I have a Suggestion/Issue for the script, how do I suggest it?   
+**A:** Do a pull request with the change or submit it as an issue with the suggestion.   
+
+**Q:** I cant access the plex folder to run thus script?   
+**A:** You may have to give yourself permission on the plex folder.   
