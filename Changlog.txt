@@ -1,3 +1,6 @@
+----1.0.3 to 1.0.4----
+added Plex-Cast v1.0.0
+
 ----1.0.2 to 1.0.3----
 plex-metaclean v1.1.1
 Fixed bug were selecting movie checkbox would do a dryrun
@@ -9,7 +12,6 @@ script has gui so, no more editing to select what you want cleaned
 added switches/arguments so you can run script w/o using gui or for automation
 
 ----1.0.0 to 1.0.1----
-Feb-4-20
 plex-titles and plex-metaclean
 both scripts now read plex path from the file 'PlexFolder.txt'
 
