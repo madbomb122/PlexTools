@@ -27,7 +27,7 @@ Various powershell scripts for plex servers.
 `Plex-titles.ps1` -Gets you a list of items in your library and shows what tv/movie corresponds to what metadata folder
 
 ## Working On
-Im currently writing a Script to help add cast members to `TV Shows` and `Movies`. It is about 60% done atm.
+Im currently writing a Script to help add cast members to `TV Shows` and `Movies`. It is almot done (should be out within 24 hours, if no issues are found)
 
 ## Usage Meta Clean
 1. Run the script  
