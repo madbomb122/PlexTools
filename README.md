@@ -38,12 +38,14 @@ Nothing Atm
 `powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/Plex-Cast.ps1`  
 *For the above, Please note you need change the c:/ to the fullpath of your file*  
 
-2. Click File -> Open and select the xml file associated with the TV or Movie that you want to edit. 
+2. Click File -> Open and select the xml file associated with the TV or Movie that you want to edit.  
 *Note: I recommend you add to the `Info.xml` file in `com.plexapp.agents.localmedia`*
 3. Click add `Add Cast Member` button at of thr Gui, and fill in the info
 4. Click File -> Save
 5. In Plex tell the show you edited to refresh metadata (not sure if this is needed)
 6. Your done
+
+*Tip: Use my Plex-Ttiles script to know what folder the TV Show or Movie you want to edit is*
 
 ## Usage Meta Clean
 1. Run the script  
