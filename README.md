@@ -11,6 +11,7 @@ To Download go to -> [Plex Tools -Release](https://github.com/madbomb122/PlexToo
 
 ## Contents
  - [Description](#description)
+ - [Working On](#working-on)
  - [Usage Meta Clean](#usage-meta-clean)
  - [Usage Titles](#usage-titles)
  - [Notes](#notes)
@@ -24,6 +25,9 @@ Various powershell scripts for plex servers.
 2. There is no tile in the file above
 
 `Plex-titles.ps1` -Gets you a list of items in your library and shows what tv/movie corresponds to what metadata folder
+
+## Working On
+Im currently writing a Script to help add cast members to `TV Shows` and `Movies`. It is about 60% done atm.
 
 ## Usage Meta Clean
 1. Run the script  
