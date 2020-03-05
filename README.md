@@ -45,7 +45,7 @@ Nothing Atm
 5. In Plex tell the show you edited to refresh metadata (not sure if this is needed)
 6. Your done
 
-*Tip: Use my Plex-Ttiles script to know what folder the TV Show or Movie you want to edit is*
+*Tip: Use my Plex-Ttiles script to know were the folder is for the TV Show snd/or Movie you want to edit is*
 
 ## Usage Meta Clean
 1. Run the script  
