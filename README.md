@@ -91,7 +91,8 @@ I may make improvements to the script to make it easier to use.
 
 **Q:** Can I run the script safely?   
 **A:** `Ples-titles` - is 100% safe.  
-       `Plex-metaclean` - unlikly to cause issues but, can cause a show/movie to not be listed if it accidently deletes a wrong folder. 
+       `Plex-metaclean` - unlikly to cause issues for tv shows but, can cause a show to not be listed if it accidently deletes a wrong folder. 
+                        - issue with movies due to how plex stores movie metadata now
        `Plex-Cast` - is 100% safe.
 
 **Q:** I have a Suggestion/Issue for the script, how do I suggest it?   
