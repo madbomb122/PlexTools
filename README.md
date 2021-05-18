@@ -60,7 +60,7 @@ or use a switch/argument for automation
 | -tv            | Cleans the tv metadata folder                                                            |
 | -dry           | Runs and shows what will be deleted w/o the -dry switch (need to do a switch above too)  |
 
-WARNING: Due to how plex now store Movie metadata all folders for movies will be deleted.
+**WARNING: Due to how plex now store Movie metadata all folders for movies will be deleted.**
 
 Example: 
 `powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:/Plex-MetaClean.ps1 -argument -dry -tv -movie`  
