@@ -51,7 +51,7 @@ Nothing Atm
 5. In Plex tell the show you edited to refresh metadata (not sure if this is needed)
 6. Your done
 
-*Note: This doe not work on a BLANK xml file.*
+*Note: This doe not work on a BLANK xml file, sorry.*
 *Tip: Use my Plex-Ttiles script to know were the folder is for the TV Show and/or Movie you want to edit is*
 
 ## Usage Meta Clean
@@ -67,7 +67,7 @@ or use a switch/argument for automation
 | -tv            | Cleans the tv metadata folder                                                            |
 | -dry           | Runs and shows what will be deleted w/o the -dry switch (need to do a switch above too)  |
 
-**WARNING: Due to how plex now store Movie metadata all folders for movies will be deleted.**
+**WARNING: DO NOT USE if your metadata folders dont have XML files in them, otherwise ALL folders will be deleted.**
 [See Issue](https://github.com/madbomb122/PlexTools/issues/1)  
 
 Example: 
@@ -101,8 +101,7 @@ I may make improvements to the script to make it easier to use.
 
 **Q:** Can I run the script safely?   
 **A:** `Ples-titles` - is 100% safe.  
-       `Plex-metaclean` - unlikly to cause issues for tv shows but, can cause a show to not be listed if it accidently deletes a wrong folder.   
-                        - issue with movies due to how plex stores movie metadata now. [See Issue](https://github.com/madbomb122/PlexTools/issues/1)     
+       `Plex-metaclean` - will have issue if metadata is not stored in XML files. [See Issue](https://github.com/madbomb122/PlexTools/issues/1)     
        `Plex-Cast` - is 100% safe.
 
 **Q:** I have a Suggestion/Issue for the script, how do I suggest it?   
