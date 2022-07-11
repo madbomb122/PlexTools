@@ -1,3 +1,7 @@
+**NOTICE**   
+These scripts will only work if the data is stored in XML files. 
+Since PLEX has been using a single SQLite database file for there metadata agent these scripts will NOT work.
+
 [![Donate](https://img.shields.io/badge/Donate-Amazon-yellowgreen.svg?style=plastic)](https://www.amazon.com/gp/registry/wishlist/YBAYWBJES5DE/)
 [![GitHub Release](https://img.shields.io/github/release/madbomb122/PlexTools.svg?style=plastic)](https://github.com/madbomb122/PlexTools/releases)
 [![GitHub Release Date](https://img.shields.io/github/release-date/madbomb122/PlexTools.svg?style=plastic)](https://github.com/madbomb122/PlexTools/releases)
@@ -42,12 +46,13 @@ Nothing Atm
 
 2. Click File -> Open and select the xml file associated with the TV or Movie that you want to edit.  
 *Note: I recommend you add to the `Info.xml` file in `com.plexapp.agents.localmedia`*
-3. Click add `Add Cast Member` button at of thr Gui, and fill in the info
+3. Click add `Add Cast Member` button in the Gui, and fill in the info
 4. Click File -> Save
 5. In Plex tell the show you edited to refresh metadata (not sure if this is needed)
 6. Your done
 
-*Tip: Use my Plex-Ttiles script to know were the folder is for the TV Show snd/or Movie you want to edit is*
+*Note: This doe not work on a BLANK xml file.*
+*Tip: Use my Plex-Ttiles script to know were the folder is for the TV Show and/or Movie you want to edit is*
 
 ## Usage Meta Clean
 1. Run the script  
